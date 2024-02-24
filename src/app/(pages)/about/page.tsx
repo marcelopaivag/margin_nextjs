@@ -19,16 +19,12 @@ export default function PageAbout() {
       <Header />
       <main className="relative">
         <SectionPageTitle
-          subtitle="Focus on engaging, reusable content that decrease the cost per leads
-            while helps you to increase profits margin. Margin strives to
-            deliver the tools and support that helps companies grow with
-            unparalleled success."
+          subtitle="¡Hola! Soy Marcelo, un apasionado kinesiólogo con 12 años de experiencia dedicados al fascinante mundo de la traumatología y ortopedia."
         >
-          About
+          Acerca de
         </SectionPageTitle>
         <SectionChecklist />
         <SectionStats />
-        <SectionTeam />
         <SectionCTALayout4 />
       </main>
       <Footer />

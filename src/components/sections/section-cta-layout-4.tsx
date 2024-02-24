@@ -8,10 +8,10 @@ const SectionCTALayout4 = () => {
         <div className="mx-auto max-w-6xl">
           <div className="text-center">
             <h2 className="mb-8">
-              Get, keep and grow more customers. We’re here to help.
+              Juntos podemos lograr tu recuperación, estoy aquí para ayudarte.
             </h2>
             <Button size="lg">
-              Let’s Work Together
+            Reservar una cita
               <ChevronRightIcon width={20} height={20} className="-mr-2 ml-4" />
             </Button>
           </div>

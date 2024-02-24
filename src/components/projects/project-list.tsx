@@ -4,7 +4,6 @@ import ProjectCard from "./project-card";
 import { useState, useEffect, useRef, useCallback } from "react";
 import useSWRInfinite from "swr/infinite";
 import { Skeleton } from "../ui/skeleton";
-import { Button } from "../ui/button";
 import { WP_REST_BASE_URL } from "@/config/site";
 import { cn } from "@/lib/utils";
 
@@ -94,19 +93,6 @@ export default function ProjectList({
       </div>
       {projects.length && !isReachedEnd && showPagination ? (
         <div className="mt-10 text-center">
-          <Button
-            size={"lg"}
-            disabled={isLoadingMore}
-            onClick={() => {
-              setSize((prevSize) => {
-                const newSize = prevSize + 1;
-                sizeRef.current = newSize;
-                return newSize;
-              });
-            }}
-          >
-            {isLoadingMore ? "Loading..." : "Load more"}
-          </Button>
         </div>
       ) : null}
     </>

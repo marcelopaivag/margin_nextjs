@@ -56,19 +56,19 @@ export default function ContactForm() {
         <ul className="mb-6 space-y-1 text-center text-sm">
           <li>
             <address className="-mt-px leading-6">
-              8910 University Center Lane Suite 620 San Diego, CA 92102
+            Avenida Las Condes #12523, Local 1b - Las Condes - Santiago.
             </address>
           </li>
           <li>
-            <span>Phone: </span>
+            <span>Teléfono: </span>
             <a href="tel:+1-800-1554-456-123" className="hover:text-primary">
-              + 1 (800) 155 4561
+            +56 9 882 34 993
             </a>
           </li>
           <li>
             <span>Email: </span>
             <a href="mailto:hi@margin.com" className="hover:text-primary">
-              hi@margin.com
+              mff.paiva@gmail.com
             </a>
           </li>
         </ul>
@@ -84,7 +84,7 @@ export default function ContactForm() {
                   name="name"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className="dark:text-white">Name</FormLabel>
+                      <FormLabel className="dark:text-white">Nombre</FormLabel>
                       <FormControl>
                         <Input {...field} />
                       </FormControl>
@@ -116,10 +116,10 @@ export default function ContactForm() {
                 name="message"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="dark:text-white">Message</FormLabel>
+                    <FormLabel className="dark:text-white">Mensaje</FormLabel>
                     <FormControl>
                       <Textarea
-                        placeholder="How can we help your business grow?"
+                        placeholder="Que puedo hacer si tengo dolor de espalda hace más de 3 meses?"
                         rows={6}
                         {...field}
                       />
@@ -134,10 +134,10 @@ export default function ContactForm() {
               {isPending ? (
                 <>
                   <Spinner className="mr-2 h-5 w-5 animate-spin" />
-                  <span>Sending</span>
+                  <span>Enviando</span>
                 </>
               ) : (
-                <span>Send Message</span>
+                <span>Enviar mensaje</span>
               )}
             </Button>
           </form>

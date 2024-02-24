@@ -6,39 +6,39 @@ import SectionTitle from "./section-title";
 export const iconBoxes = [
   {
     icon: "/icons/deadline-5926_5778aee2-b372-4b21-94a1-c9fc06ac464c.svg",
-    title: "Fast Results",
+    title: "Experiencia Especializada",
     description:
-      "We also provide tangible results and measurable long-term value business.",
+      "Con más de 10 años de experiencia en el campo de la kinesiología, me he especializado en traumatología y ortopedia.",
   },
   {
     icon: "/icons/medal-3141_6860a6ec-597a-49e1-a5d2-dd4b070acef3.svg",
-    title: "Award Winning Agency",
+    title: "Enfoque Integral",
     description:
-      "We also provide tangible results and measurable long-term value business.",
+      "Adopto un enfoque integral hacia la rehabilitación, considerando no solo los síntomas físicos sino también las necesidades emocionales y psicológicas de mis pacientes.",
   },
   {
     icon: "/icons/medical-research-6506_05214fe4-cb2e-4171-ac03-72168bf2981b.svg",
-    title: "Competition Analysis",
+    title: "Trato Personalizado",
     description:
-      "We also provide tangible results and measurable long-term value business.",
+      "Cada paciente es único, y mis programas de rehabilitación se adaptan a las necesidades individuales.",
   },
   {
     icon: "/icons/customer-support-4912_a5517329-a472-47b5-8155-d507da181405.svg",
-    title: "Friendly Customer Support",
+    title: "Incorporación de Tecnología Avanzada",
     description:
-      "We also provide tangible results and measurable long-term value business.",
+      "Utilizo tecnologías de vanguardia en mi práctica para mejorar la eficacia del tratamiento.",
   },
   {
     icon: "/icons/pay-2643_cf4ecaa0-bcfb-4c2b-91e1-7353cb0dccdd.svg",
-    title: "100% Money Back Guarantee",
+    title: "Actualización Constante",
     description:
-      "We also provide tangible results and measurable long-term value business.",
+      "La kinesiología evoluciona constantemente, me comprometo a mantenerme actualizado con las últimas investigaciones y avances en traumatología y ortopedia. ",
   },
   {
     icon: "/icons/handshake-3124_670c4553-214a-4d06-830f-4d0855736c60.svg",
-    title: "Customer Loyalty",
+    title: "Compromiso con el Bienestar a Largo Plazo",
     description:
-      "We also provide tangible results and measurable long-term value business.",
+      "Mi enfoque va más allá de simplemente aliviar los síntomas; me esfuerzo por educar a mis pacientes sobre la prevención y el autocuidado.",
   },
 ];
 
@@ -62,7 +62,7 @@ const SectionIconBoxesLayout3 = ({ noTitle }: { noTitle?: boolean }) => {
       <div className="container">
         {!noTitle && (
           <SectionTitle
-            subtitle="Nuestro objetivo es proporcionar rehabilitación, utilizando un modelo de atención personalizado en cada sesión para aliviar el dolor y optimizar la recuperación de nuestros usuarios."
+            subtitle="Nuestro objetivo es proporcionar rehabilitación para aliviar el dolor y optimizar la recuperación de nuestros usuarios."
             sectionClasses="mx-auto max-w-xl text-center mb-12"
             titleClasses="mb-3 text-center"
             subtitleClasses="text-md font-medium"

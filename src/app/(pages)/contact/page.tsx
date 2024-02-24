@@ -16,8 +16,8 @@ export default function PageContact() {
     <>
       <Header />
       <main className="relative">
-        <SectionPageTitle subtitle="Let’s have a dicussion about your business">
-          Contact
+        <SectionPageTitle subtitle="Si tienes alguna duda, escríbeme y conversemos!">
+          Contacto
         </SectionPageTitle>
         <SectionContactForm />
         <SectionGoogleMap />
